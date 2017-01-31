@@ -1,7 +1,7 @@
 # fiddle
 
 This repository demonstrates how to reconfigure one of 
-[Mike Bostock's blocks](https://bl.ocks.org/mbostock/4062045) in GitHub so that it opens in JSFiddle.
+[Mike Bostock's blocks](https://bl.ocks.org/mbostock/4062045) so that it opens in JSFiddle.
 
 <http://jsfiddle.net/gh/get/library/pure/umbcsg/fiddle/tree/master/>
 
@@ -13,7 +13,7 @@ The files used by JSFiddle:
 * demo.details (for configuring remote resources, such as d3.v4.min.js)
 * miserables.json (served from the master branch)
 
-This demo applies <a href="http://doc.jsfiddle.net/use/github_read.html" target="_blank">JSfiddle guidelines</a> to [Mike Bostock's force-directed graph demo](https://bl.ocks.org/mbostock/4064025).  Several important changes to the block show up in ```demo.js```:
+This demo applies <a href="http://doc.jsfiddle.net/use/github_read.html" target="_blank">JSfiddle guidelines</a> to [Mike Bostock's force-directed graph visualization](https://bl.ocks.org/mbostock/4064025).  Several important modifications show up in ```demo.js```:
 
 * window.onload -- the callback contains all the code from the block
 * svg -- the ```viewBox``` attribute and CSS ```width: 100%``` allow it to fit in the JSFiddle frame
