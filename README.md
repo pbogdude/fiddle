@@ -3,7 +3,7 @@
 This repository demonstrates how to reconfigure one of 
 [Mike Bostock's blocks](https://bl.ocks.org/mbostock/4062045) so that it opens in JSFiddle.
 
-<http://jsfiddle.net/gh/get/library/pure/umbcsg/fiddle/tree/master/>
+<http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/>
 
 The files used by JSFiddle:
 
@@ -23,7 +23,7 @@ This demo applies <a href="http://doc.jsfiddle.net/use/github_read.html" target=
 
 The same files open with index.html (not used by JSFiddle) at the github project site:
 
-<https://umbcsg.github.io/fiddle/>
+<https://umbcvis.github.io/fiddle/>
 
 See the [Github documentation](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 for guidance on configuring gh-pages to serve files from the master branch.
