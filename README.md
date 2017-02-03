@@ -1,3 +1,5 @@
+http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/#&togetherjs=ssUKvErAf6
+
 # fiddle
 
 This repository demonstrates how to reconfigure one of 
