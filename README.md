@@ -1,5 +1,7 @@
 http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/#&togetherjs=ssUKvErAf6
 
+<http://jsfiddle.net/gh/get/library/pure/tatornator12/barChart/tree/master/>
+
 # fiddle
 
 This repository demonstrates how to reconfigure one of 
