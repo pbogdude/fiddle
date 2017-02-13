@@ -2,12 +2,14 @@
 
 # bin
 
-Click on <http://jsbin.com>, then replace the default HTML contents by copying and pasting the contents of ````bin.html```.
+Click on <http://jsbin.com>, then replace the default HTML contents by copying and pasting the contents of ```bin.html```.
 
+Note: ````bin.html```` loads the data directly from [Mike Bostock's block](https://bl.ocks.org/mbostock/4062045). Otherwise, there's no difference between ````bin.html```` and Mike's ````index.html````.
+
+# fiddle
 
 http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/#&togetherjs=ssUKvErAf6
 
-# fiddle
 
 This repository demonstrates how to reconfigure one of 
 [Mike Bostock's blocks](https://bl.ocks.org/mbostock/4062045) so that it opens in JSFiddle.
