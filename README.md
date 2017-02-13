@@ -1,3 +1,5 @@
+
+
 # bin
 
 Click on <http://jsbin.com>, then replace the default HTML contents by copying and pasting the contents of ````bin.html```.
