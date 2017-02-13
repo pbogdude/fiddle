@@ -1,6 +1,9 @@
-http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/#&togetherjs=ssUKvErAf6
+# bin
 
-<http://jsfiddle.net/gh/get/library/pure/tatornator12/barChart/tree/master/>
+Click on <http://jsbin.com>, then replace the default HTML contents by copying and pasting the contents of ````bin.html```.
+
+
+http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/#&togetherjs=ssUKvErAf6
 
 # fiddle
 
