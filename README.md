@@ -6,7 +6,7 @@ tl;dr:  It's way easier in JSBin.
 
 # bin
 
-Here's it is served from github: <http://umbcvis.github.com/fiddle/bin.html>
+Here's it is served from github: <http://umbcvis.github.io/fiddle/bin.html>
 
 To load it in JSBIN, click on <http://jsbin.com>, then
 by copy and paste the contents of ```bin.html``` onto the default contents.
