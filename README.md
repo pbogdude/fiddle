@@ -2,7 +2,7 @@
 
 How to load [Mike Bostock's block](https://bl.ocks.org/mbostock/4062045) in JSFiddle.net and JSBin.com
 
-tl;dr:  It's way easier in JSBin.
+**tl;dr**  It's way easier in JSBin. (JSFiddle's collaborative mode is better.)
 
 # bin
 
