@@ -12,13 +12,13 @@ To load it in JSBIN, click on <http://jsbin.com>, then
 by copy and paste the contents of ```bin.html``` onto the default
 contents of the HTML window.  That's it.
 
-Note: ````bin.html```` loads the data directly from 
-[Mike Bostock's block](https://bl.ocks.org/mbostock/4062045). Otherwise, 
+Note: ````bin.html```` loads the data directly from
+[Mike Bostock's block](https://bl.ocks.org/mbostock/4062045). Otherwise,
 there's no difference between ````bin.html```` and Mike's ````index.html````.
 
 To load a gist into JSBin, see: <https://jsbin.com/help/import-gists>
 
-To share a bin, see: <https://jsbin.com/help/share-latest-bin>
+To share a bin, just copy the URL (see also: <https://jsbin.com/help/share-latest-bin>)
 
 # fiddle
 
