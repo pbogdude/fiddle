@@ -1,20 +1,25 @@
 # bin or fiddle?
 
-
+This repository demonstrates how to reconfigure one of 
+[Mike Bostock's blocks](https://bl.ocks.org/mbostock/4062045) so that it opens in JSFiddle.neg and JSBin.com
 
 # bin
 
-Click on <http://jsbin.com>, then replace the default HTML contents by copying and pasting the contents of ```bin.html```.
+Click on <http://jsbin.com>, then replace the default HTML contents by copying and pasting the contents of ```bin.html``` from this repo.
 
 Note: ````bin.html```` loads the data directly from [Mike Bostock's block](https://bl.ocks.org/mbostock/4062045). Otherwise, there's no difference between ````bin.html```` and Mike's ````index.html````.
 
+For instructions on loading a gist into JSBin, see: <https://jsbin.com/help/import-gists>
+
+For instructions on sharing your bin, see: <https://jsbin.com/help/share-latest-bin>
+
 # fiddle
+
+To collaborate on the same fiddle, click this link:
 
 http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/#&togetherjs=ssUKvErAf6
 
-
-This repository demonstrates how to reconfigure one of 
-[Mike Bostock's blocks](https://bl.ocks.org/mbostock/4062045) so that it opens in JSFiddle.
+To simply open this repo in JSFIddle, click:
 
 <http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/>
 
