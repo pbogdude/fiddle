@@ -9,10 +9,12 @@ tl;dr:  It's way easier in JSBin.
 Here's it is served from github: <http://umbcvis.github.io/fiddle/bin.html>
 
 To load it in JSBIN, click on <http://jsbin.com>, then
-by copy and paste the contents of ```bin.html``` onto the default contents.
+by copy and paste the contents of ```bin.html``` onto the default
+contents of the HTML window.  That's it.
 
-Note: ````bin.html```` loads the data directly from [Mike Bostock's block](https://bl.ocks.org/mbostock/4062045). Otherwise, there's no
-difference between ````bin.html```` and Mike's ````index.html````.
+Note: ````bin.html```` loads the data directly from 
+[Mike Bostock's block](https://bl.ocks.org/mbostock/4062045). Otherwise, 
+there's no difference between ````bin.html```` and Mike's ````index.html````.
 
 To load a gist into JSBin, see: <https://jsbin.com/help/import-gists>
 
