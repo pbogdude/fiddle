@@ -1,32 +1,37 @@
-# bin or fiddle?
+# bin or fiddle or block?
 
-How to load [Mike Bostock's block](https://bl.ocks.org/mbostock/4062045) in JSFiddle.net and JSBin.com
+There are quite a few JavaScript playgrounds.  For our purposes, <http://blockbuilder.org> may be the best.
 
-**tl;dr**  It's way easier in JSBin. (JSFiddle's collaborative mode is better.)
+Here's how to load [Mike Bostock's block <https://bl.ocks.org/mbostock/4062045> in each one.
 
-# bin
+# blockbuilder.org
 
-Here's it is served from github: <http://umbcvis.github.io/fiddle/bin.html>
+Browse to: <https://blockbuider.org/mbostock/4062045>.  
 
-To load it in JSBIN, click on <http://jsbin.com>, then
-by copy and paste the contents of ```bin.html``` onto the default
-contents of the HTML window.  That's it.
+That's right, all you have to do is change "https://bl.ocks.org" to "http://blockbuilder.org" in the URL.  What's notable is that the HTML file loads data from the gist, and blockbuilder.org continues loading the data from the gist.
 
-Note: ````bin.html```` loads the data directly from
-[Mike Bostock's block](https://bl.ocks.org/mbostock/4062045). Otherwise,
-there's no difference between ````bin.html```` and Mike's ````index.html````.
+# jsbin.com
 
-To load a gist into JSBin, see: <https://jsbin.com/help/import-gists>
+Here's the gist that underlies the block: <https://gist.github.com/mbostock/4062045>.
 
-To share a bin, just copy the URL (see also: <https://jsbin.com/help/share-latest-bin>)
+Browse to: https://gist.jsbin.com/mbostock/4062045
+
+This is similar to blockbuilder.org in that all you have to do is change "github" to "jsbin" in the gist's URL. But...
+
+1. You'll have to change the URL for the data. In this case, you'll change
+
+        d3.json("miserables.json", function(error, graph) {
+
+to
+
+        var url = "https://gist.githubusercontent.com/mbostock/4062045/raw/5916d145c8c048a6e3086915a6be464467391c62/";
+        d3.json(url + "miserables.json", function(error, graph) {
+  
+1. jsbin.com also seems to have a little trouble loading the files. For example, in my experience, the JavaScript window has some stray characters "sadfsdfsafsdsdsadf" that might cause problems.
 
 # fiddle
 
-To collaborate on the same fiddle, click:
-
-http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/#&togetherjs=ssUKvErAf6
-
-To simply open this repo in JSFIddle, click:
+JSFiddle.com has a nice collaborative mode, but it's the most difficult to configure for loading gists.  The files in this repo have been set up to load automatically in JSFiddle. To simply open this repo in JSFIddle, click:
 
 <http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/>
 
@@ -35,10 +40,12 @@ The files used by JSFiddle:
 * demo.html (html without boilerplate tags: doctype, html, meta, etc.)
 * demo.css (CSS only)
 * demo.js (JavaScript only)
-* demo.details (for configuring remote resources, such as d3.v4.min.js)
-* miserables.json (served from the master branch)
+* demo.details (manifest for configuring remote resources, such as d3.v4.min.js)
+* miserables.json (data served from the master branch)
 
 This demo applies <a href="http://doc.jsfiddle.net/use/github_read.html" target="_blank">JSfiddle guidelines</a> to [Mike Bostock's force-directed graph visualization](https://bl.ocks.org/mbostock/4064025).  Several important modifications show up in ```demo.js```:
+
+Here are some other things that were changed to make it work well...
 
 * window.onload -- the callback contains all the code from the block
 * svg -- the ```viewBox``` attribute and CSS ```width: 100%``` allow it to fit in the JSFiddle frame
