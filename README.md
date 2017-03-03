@@ -2,7 +2,7 @@
 
 There are quite a few JavaScript playgrounds.  For our purposes, <http://blockbuilder.org> may be the best.
 
-Here's how to load [Mike Bostock's block <https://bl.ocks.org/mbostock/4062045> in each one.
+Here's how to load Mike Bostock's block <https://bl.ocks.org/mbostock/4062045> in each one.
 
 # blockbuilder.org
 
