@@ -1,4 +1,4 @@
-# bin or fiddle or block?
+# jsbin or jsfiddle or blockbuilder?
 
 There are quite a few JavaScript playgrounds.  For our purposes, <http://blockbuilder.org> may be the best.
 
